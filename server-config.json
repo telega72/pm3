@@ -1,0 +1,34 @@
+{
+  "siteName": "MarketPlace RU",
+  "siteDescription": "Онлайн-доска объявлений с каталогом, чатами и модерацией.",
+  "supportEmail": "support@marketplace.local",
+  "sessionDays": 30,
+  "passwordResetMinutes": 30,
+  "pricing": {
+    "paidAdPriceRub": 598
+  },
+  "avatar": {
+    "maxSizeKb": 2048,
+    "allowedFormats": ["jpg", "jpeg", "png", "webp", "gif"]
+  },
+  "ads": {
+    "maxTitleLength": 120,
+    "maxDescriptionLength": 4000,
+    "maxImageSizeKb": 2048,
+    "maxImagesCount": 10,
+    "imageCompressionQuality": 82
+  },
+  "aiAssistant": {
+    "enabled": true,
+    "autoModeration": true,
+    "supportAutoReply": true,
+    "ticketThreshold": 0.45
+  },
+  "defaultAdmin": {
+    "name": "Главный администратор",
+    "phone": "+79990000001",
+    "city": "Москва",
+    "email": "admin@marketplace.local",
+    "password": "Admin@12345"
+  }
+}
